@@ -1,0 +1,80 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.head{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.links {
+    background-color: black;
+    display: flex;
+    margin-bottom: 30px;
+
+}
+.links a {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+}
+.right {
+    flex-basis: 80%;
+    text-align: right;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.titel {
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin: 10px;
+
+}
+.image{
+    width: 100%;
+    margin-top: 10px;
+    height: 150px;
+    background-color:  rgb(66, 55, 55);
+}
+.about{
+    background-color:#eee;
+    padding: 20px;
+    margin: 10px;
+}
+.about .image {
+    height: 200px;
+}
+.about .image a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin-bottom: 50px;
+}
+.follw{
+    background-color: #eee;
+    padding: 10px;
+    margin-bottom: 30px;
+    margin: 10px;
+}
+.two {
+    flex-basis: 35%
+}
+.one {
+    flex-basis: 65%;
+}
+.footer {
+    background-color: thistle;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 30px;
+}
